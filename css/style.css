@@ -701,7 +701,7 @@ iframe {
   color: #333;
   padding-left: 0;
   margin-left: 0;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 22px;
   margin: 0;
   margin-bottom: 8px;
@@ -713,7 +713,7 @@ iframe {
   color: #333;
   padding-left: 0;
   margin-left: 0;
-  font-size: 18px;
+  font-size: 30px;
   line-height: 22px;
   margin: 0;
   margin-bottom: 8px;
@@ -727,8 +727,8 @@ iframe {
   line-height: 15px;
   font-style: italic;
   color: #555;
-  font-size: 10px;
-  margin-top: 5px;
+  font-size: 80%;
+  margin-top: 3px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
@@ -1428,3 +1428,6 @@ span.see-more {
 .safari .testimonial-picture img {
   border: 0px solid #ddd;
 }
+/*Table*/
+#date{text-align: right};
+#name{font-size: 30px};
