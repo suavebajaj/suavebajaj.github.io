@@ -35,7 +35,9 @@ $(document).ready(function(){
     singleItem: true,    
     navigationText: ["<span class='fa fa-chevron-left'></span>","<span class='fa fa-chevron-right'></span>"],     
   });
-
+   $(document).ready(function() {
+      $('body').css('touch-action', 'auto');
+  });
 
 //==============_Map_================
 $('.map').on('click', function(){
