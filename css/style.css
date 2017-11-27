@@ -1429,5 +1429,8 @@ span.see-more {
   border: 0px solid #ddd;
 }
 /*Table*/
-#date{text-align: right};
-#name{font-size: 30px};
+#date{text-align:right;
+font-size: 12px}
+#name{
+  font-size: 13px
+}
