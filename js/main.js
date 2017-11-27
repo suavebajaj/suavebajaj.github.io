@@ -52,7 +52,8 @@ $('.map').on('mouseleave', function(){
 
 //==============___Scrollbars___================
 $('.section-vcardbody').perfectScrollbar({
-  wheelSpeed: 0.9
+  wheelSpeed: 0.9,
+  handlers: ['click-rail', 'drag-thumb', 'keyboard', 'wheel']
 });
 
 //==============___Menu & Pages Animation___================
