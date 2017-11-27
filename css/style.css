@@ -393,11 +393,11 @@ iframe {
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-@media (min-width:992px) {
+/*@media (min-width:992px) {
   .container {
     min-height: 680px;
   }
-}
+}*/
 .section-vcardbody {
   width: 99%;
   margin: 0 auto;
