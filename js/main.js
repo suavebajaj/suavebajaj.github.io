@@ -51,10 +51,13 @@ $('.map').on('mouseleave', function(){
 
 
 //==============___Scrollbars___================
-$('.section-vcardbody').perfectScrollbar({
-  wheelSpeed: 0.9,
-  handlers: ['click-rail', 'drag-thumb', 'keyboard', 'wheel']
+var is_mobile = ((/Mobile|Android|iPhone|iPod|BlackBerry|Windows Phone/i).test(navigator.userAgent || navigator.vendor || window.opera) ? true : false);
+
+if ( !is_mobile ) {
+  $('.section-vcardbody').perfectScrollbar({
+  wheelSpeed: 0.9
 });
+}
 
 //==============___Menu & Pages Animation___================
 
