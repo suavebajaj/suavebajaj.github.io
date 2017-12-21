@@ -1434,3 +1434,9 @@ font-size: 12px}
 #name{
   font-size: 13px
 }
+/* Press Release */
+.releases{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+}
